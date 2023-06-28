@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sticky Navbar | Vanilla Javavascript</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+	<header>
+		<a href="#"class="CHARLY">CHARLY</a>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Portafolio</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</header>
+
+	<section class="banner">
+	<script type="text/javascript">
+		window.addEventListener("scroll",function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("sticky",window.scrollY > 0);
+		})
+	</script>
+	<section class="baner1">
+		<div class="content">
+			<h2>Explore The World</h2>
+			<p>Conoce nuestro ranking de lugares mas hermosos del mundo, junto a la mejor experiencia de viaje que pueda tener. Ademas de recorrer con un grupo de expertos todos los lugares turisticos del lugar que visite </p>
+			<a href="#" class="btn"><h3>Learn More </h3></a>
+	</section>
+	<section1>
+		<div class="ui-card">
+			<img src="imagenes/ig1.jpg">
+			<div class="description">
+				<h3>New York</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+		<div class="ui-card">
+			<img src="imagenes/img2.jpg">
+			<div class="description">
+				<h3>Cartagena De Indias</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+		<div class="ui-card">
+			<img src="imagenes/ig3.jpg">
+			<div class="description">
+				<h3>Dubai</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+				<a href="#">Read More</a>
+			</div>
+		</div>
+		
+	</section1>
+
+	<footer>
+		<div class="container">
+			<div class="sec aboutus">
+				<h3>About Us</h3>
+				<p1>Todavía no sale de su asombro ni de su indignación Manuela Fernández Jaime, la joven de 26 años licenciada en relaciones de trabajo, después de enterarse los motivos por los cuales no fue elegida para un puesto de selección de personal de una empresa de recursos humanos ubicada en la Ciudad de Buenos Aires, para el cual se había postulado.</p1>
+				<ul class="sci">
+					<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+				</ul>
+			<p3>Copyright © 2020 Charly Inc</p3>
+
+			</div>
+			<div class="sec quickLinks">
+				<h3>Quick Links</h3>
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">FAQ</a></li>
+					<li><a href="#">Privacy</a></li>
+					<li><a href="#">help</a></li>
+					<li><a href="#">Terms & consitions</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
